@@ -1,0 +1,118 @@
+
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+header{
+
+    background-image: url(https://dicasprapuntacana.com.br/wp-content/uploads/2021/10/eletronicos.jpeg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+body, html{
+    height: 100%;
+    background: linear-gradient(0.25turn, #3f87a6, #05549e, #05235c);}
+.banner{
+    background-image: url(https://canalcienciascriminais.com.br/wp-content/uploads/2023/03/importacao-de-eletronicos.jpg);
+      width: 100%;
+      height: 50vh;
+      position:center;
+      top: 50px;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: 200vh 50vh;
+      justify-content: center;
+      display: flex;
+      color: #f7f7f7;
+      border-radius: 4px;
+}
+  /* Place text in the middle of the image */
+  .text-banner {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(9, 6, 207);
+    height: 5vh;
+
+    
+  }
+  .products{
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-decoration:underline;
+  }
+ section{
+  font-size: 20px;
+  text-align: justify;
+  color: #ddd;
+  margin-bottom: 50px;
+ }
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 8px #ffffff44;
+    justify-content: center;
+    
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: #0027d3;
+    border-radius: 6px;
+}
+
+tbody>tr:nth-child(even),
+thead>tr,
+tfoot>tr {
+    background-color: #eee;
+ 
+}
+
+td,
+th {
+    padding: 20px 25px;
+    border-radius: 6px;
+}
+
+thead>tr {
+    border-bottom: 4px solid #ddd;
+}
+
+thead th {
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+tbody td {
+    font-size: 16pt;
+}
+
+tfoot>tr {
+    border-top: 4px solid #ddd;
+}
+
+tfoot td:nth-child(1) {
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+tfoot td:nth-child(2) {
+    font-weight: 600;
+    text-align: center;
+}
+footer{
+  margin-top: 50px;
+  padding: 5px;
+  background-color: #0027d3;
+  color: #eee;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
